@@ -77,7 +77,7 @@ namespace Egzamin
 * wartość zwracana: funckja zwraca maksymalną wartość w tablicy
 * autor: <numer PESEL zdającego>
 * ****************************************************/
-        static int WyszukiwanieWartosciMaksymalnej()
+        private static int WyszukiwanieWartosciMaksymalnej()
         {
             int maksymalnaWartosc = tablica[0];
             for(int i =0;i< tablica.Length;i++)
